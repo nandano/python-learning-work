@@ -4,10 +4,12 @@ glossary = {
     'list': 'a mutable data structure that can store a collection of items',
     'index': 'position of an element in a list',
     'mutable': 'a value that can be changed',
+    'string': 'a collection of characters',
+    'indentation': 'spaces that are put when a new block begins',
+    'for loop': 'used to iterate through a sequence of items',
+    'dictionary': 'a collection of key-value pairs',
+    'tuple': 'an immutable collection of items written with round brackets',
     }
 
-print(f"print:\n\t{glossary['print']}")
-print(f"\nvariable:\n\t{glossary['variable']}")
-print(f"\nlist:\n\t{glossary['list']}")
-print(f"\nindex:\n\t{glossary['index']}")
-print(f"\nmutable:\n\t{glossary['mutable']}")
+for word, meaning in glossary.items():
+    print(f"{word}:\n\t{meaning}.")
