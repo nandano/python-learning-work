@@ -6,7 +6,7 @@ def make_album(artist, title, song_count=None):
 
 album_1 = make_album("kendrick lamar", "to pimp a butterfly")
 album_2 = make_album("madvillain", "madvillainy")
-album_3 = make_album("mf doom", "mm food")
+album_3 = make_album("MF DOOM", "MM Food")
 album_4 = make_album("kendrick lamar", "damn", 14)
 
 print(album_1)
