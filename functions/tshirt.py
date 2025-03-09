@@ -1,7 +1,19 @@
-def make_shirt(size, text):
-    print(f"The size of your t-shirt will be {size}.")
-    print(f"\"{text}\" will be printed on your t-shirt.")
+# import tshirt_function
+
+# tshirt_function.make_shirt(40, "I want to be the very best")
+
+# from tshirt_function import make_shirt
+
+# make_shirt(40, "I want to be the very best")
+
+# from tshirt_function import make_shirt as ms
+
+# ms(40, "I want to be the very best")
+
+# import tshirt_function as tf
+
+# tf.make_shirt(40, "I want to be the very best")
+
+from tshirt_function import *
 
 make_shirt(40, "I want to be the very best")
-make_shirt(size=40, text="I want to be the very best")
-make_shirt(text="I want to be the very best", size=40)
