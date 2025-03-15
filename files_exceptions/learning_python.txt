@@ -1,0 +1,4 @@
+In Python you can store data in lists
+In Python you can store data in dictionaries
+In Python you can model real world entities using classes
+In Python you can get and store user input in variables
